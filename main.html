@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BuildEdge Creations</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Khushi Construction</div>
+    <nav>
+      <ul>
+        <li><a href="intro.html">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h1>We Build Your Vision</h1>
+    <p>Specialists in industrial buildings & compound wall construction.</p>
+    <button onclick="scrollToSection('services')">Explore Services</button>
+  </section>
+<section id="services">
+  <h2>Our Services</h2>
+  <div class="cards">
+    <a href="building.html" class="card-link">
+      <div class="card">
+        <img src="building.jpg" alt="Building" class="card-img">
+        <h3>Building Construction</h3>
+        <p>Commercial & Industrial structures with modern architecture.</p>
+      </div>
+    </a>
+    <a href="compound.html" class="card-link">
+      <div class="card">
+        <img src="wall.jpg" alt="Compound Walls" class="card-img">
+        <h3>Compound Walls</h3>
+        <p>Secure and aesthetic boundary walls for your company premises.</p>
+      </div>
+    </a>
+   <!--<a href="design.html" class="card-link">
+      <div class="card">
+        <img src="3d.jpg" alt="3D Planning & Design" class="card-img">
+        <h3>3D Planning & Design</h3>
+        <p>Visualize before we build with professional 3D models.</p>
+      </div>
+    </a>-->
+  </div>
+</section>
+
+  <section id="projects">
+    <h2>Work in progress</h2>
+    <div class="gallery">
+      <img src="b6.jpg" alt="Project 1">
+      <img src="b7.jpg" alt="Project 2">
+      <img src="wall3.jpg" alt="Project 3">
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Message..." rows="4"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 BuildEdge Creations.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
